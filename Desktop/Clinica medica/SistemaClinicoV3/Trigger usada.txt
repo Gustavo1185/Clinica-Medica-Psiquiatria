@@ -1,0 +1,21 @@
+DELIMITER $
+DROP TRIGGER IF EXISTS t_Exclusao_Paciente $
+CREATE TRIGGER t_Exclusao_Paciente
+AFTER DELETE ON paciente
+FOR EACH ROW
+BEGIN
+DELETE FROM nro_telefone WHERE nro_telefone.cpf = old.cpf;
+END$
+DELIMITER ;
+
+
+
+DELIMITER $
+DROP TRIGGER IF EXISTS t_Exclusao_Funcionario $
+CREATE TRIGGER t_Exclusao_Funcionario
+AFTER DELETE ON funcionario
+FOR EACH ROW
+BEGIN
+DELETE FROM telefone WHERE telefone.cod_funcionario = old.cod_funcionario;
+END$
+DELIMITER ;

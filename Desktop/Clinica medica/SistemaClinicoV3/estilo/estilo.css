@@ -1,0 +1,127 @@
+html{
+    overflow-x:hidden;
+}
+.barraSuperior{
+    background-color: #744087;
+}
+.corFonte{
+    color: #ffffff;
+}
+.legenda{
+    color: #050505 !important;
+}
+.barraLateral{
+    background-color: #3B2145 !important;   
+}
+.barraLateralSusp{
+   background-color: #3B2145 !important; 
+   padding-bottom: 5%;
+}
+.imgUser{
+    width: 30%;
+    padding-top: 25%;
+}
+
+.icones{
+    width: 25px;
+}
+.botao1{
+    width: 100%;
+    background-color:  #3B2145;
+    padding: 5%;
+    border-style: solid;
+    border-bottom-width: 1%;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    
+}
+.botao1:hover{
+    background-color: #5f2375;
+    
+}
+.botao1:focus{
+    outline-style: none;
+  }
+ .divBloqueio{
+     display: none;
+ } 
+
+.botao2{
+    width: 100%;
+    background-color:  #9f43c0;
+    padding: 5%;
+    color: #ffffff;
+    margin-bottom: 1%;
+}  
+.botao2:hover{
+    background-color:  #ffffff;
+    color: #000000;
+}
+.lista{
+    width: 100%;
+}
+.formulario{
+    background-color: #e2e2e2;
+    width: 97%;
+}
+.telaInfor{
+    border: 1px solid #d4b5df;
+    color: #8e8a8f;
+}
+.telaInforItens1{
+    background-color: #d5c4f5;
+}
+.telaInforItens2{
+    background-color: #f899f8;
+}
+.telaInforValores{
+    font-size: 36px;
+}
+.cDiv{
+   background-color: #fff;
+  margin: 0.1%;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.corH{
+    color: #495057;
+}
+.cInput{
+    font-weight: bold;
+}
+#fundo{
+    background-image: url("../img/fundo.png");
+}
+.telaLogin{
+    background-color: rgba(10,23,55,0.5);
+   
+
+}
+
+.estiloFonte{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.corTitulo{
+    color: #313131;
+}
+
+.tabela{
+ border: 1px solid #d4b5df;
+ 
+
+    
+}
+.rolagem{
+    overflow: auto;
+    
+}
+.nQuebra{
+    white-space: nowrap;
+}
+
+label.error{
+    color: red;
+    font-size: 12px;
+}

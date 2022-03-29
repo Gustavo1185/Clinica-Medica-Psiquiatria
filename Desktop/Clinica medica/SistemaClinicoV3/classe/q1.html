@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+
+<head>
+
+<script type="text/javascript">
+function testarNumero(){
+	
+	var n = prompt("informe um número");
+	if(n == null || isNaN(n)){
+
+		alert("nenhuma entrada confirmada");
+	}else{	
+		n = parseInt(n);
+		alert(n);
+		if(n % 3 == 0 && n % 5 ==0){
+			alert("numero informado divisivel por 3 e 5");
+		} else{
+			alert("numero informado não é divisivel por 3 e 5");
+		}
+	}
+}
+
+	</script>
+	</head>
+	<body>
+
+		<button onclick="testarNumero()">Informar Número</button>
+
+	</body>
+
+
+
+
+</html>
